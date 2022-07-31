@@ -1,10 +1,10 @@
 {
-  "name": "vim",
-  "displayName": "Vim",
-  "description": "Vim emulation for Visual Studio Code",
-  "icon": "images/icon.png",
-  "version": "1.23.1",
-  "publisher": "vscodevim",
+  "name": "vim-xlboy",
+  "displayName": "vim-xlboy",
+  "description": "Vim emulation for Visual Studio Code (xlboy）",
+  "icon": "images/xlboy-avatar.png",
+  "publisher": "undefined",
+  "version": "0.0.0",
   "galleryBanner": {
     "color": "#e3f4ff",
     "theme": "light"
@@ -19,7 +19,6 @@
     "type": "git",
     "url": "https://github.com/VSCodeVim/Vim.git"
   },
-  "homepage": "https://github.com/VSCodeVim/Vim",
   "bugs": {
     "url": "https://github.com/VSCodeVim/Vim/issues"
   },
@@ -1161,7 +1160,7 @@
     ]
   },
   "scripts": {
-    "vscode:prepublish": "gulp build",
+    "vscode:prepublish": "yarn build",
     "build": "gulp build",
     "test": "node ./out/test/runTest.js",
     "forceprettier": "gulp forceprettier",
