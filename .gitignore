@@ -5,6 +5,7 @@ node_modules
 .vscode-test
 .DS_Store
 *.vsix
+!*xlboy*.vsix
 *.log
 .cache
 
